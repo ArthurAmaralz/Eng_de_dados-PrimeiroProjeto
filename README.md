@@ -24,7 +24,9 @@ Para realizar as atividades propostas, o curso utilizou-se da seguinte estrutura
 
 > No meu caso por preferir ultilizar o BigQuery, que não ofereceria custos extras,
 > tive os seguintes passos:
+> P.s.: Na carga das tabalas, o nome das colunas perderam o underline '_'
  
  * Upload dos arquivos no Google Cloud Storage;
  * Criação do Dataset dentro do Google BigQuery;
- * Copia das tabelas dentro do dataset, ultilizando 'detectar automaticamente Esquemas', nas opções avançadas mudar o delimiter para ';' e marcar 'ignorar a primeira linha'
+ * Copia das tabelas para o dataset, ultilizando 'detectar automaticamente Esquemas', nas opções avançadas mudar o delimiter para ';' e marcar 'ignorar a primeira linha';
+ * Após a carga de todas as tabelas estamos prontos para resolução de problemas;
