@@ -19,9 +19,9 @@ O esquema do BD Relacional da empresa se dá de acordo com a imagem:
 > 
 > P.s.: Na carga das tabelas, os nomes das colunas perderam o underline '_'
  
-* Upload dos arquivos no Google Cloud Storage;
+* Upload dos arquivos no Google Cloud Storage, mas podendo ser upado diretamente dentro no BigQuery;
 * Criação do Dataset dentro do Google BigQuery;
-* Copia das tabelas para o dataset, ultilizando 'detectar automaticamente Esquemas', nas opções avançadas mudar o delimiter para ';' e marcar 'ignorar a primeira linha';
+* Copia das tabelas do Cloud Storage para o dataset, ultilizando 'detectar automaticamente Esquemas', nas opções avançadas mudar o delimiter para ';' e marcar 'ignorar a primeira linha';
 * Após a carga de todas as tabelas estamos prontos para resolução de problemas;
  
 ![Diagrama](Tabelas_Relacional/diagrama_bigquery.png)
@@ -53,4 +53,9 @@ Para realizar as atividades propostas, o curso utilizou-se da seguinte estrutura
 ## Arquivos de resolução
 
 Os arquivos de resolução se encontram anexados e separados por atividade. Consistem em scripts SQL e arquivos gerados no formato .csv
- 
+_______
+## Meta
+
+Link do curso: <https://www.udemy.com/course/engenheiro-de-dados/>
+
+Arthur Amaral de Lima --- [Linkedin](https://www.linkedin.com/in/arthuramaral-py/) --- arthur.absens@gmail.com
