@@ -3,17 +3,17 @@
 
 /* Segundo desafio - performance do vendedor "Robert" no ano passado em comparação com outros vendedores */
 
-select firstname || " " || lastname as nome_completo,
-	   salary
+select  firstname || " " || lastname as nome_completo,
+	salary
 from projeto.employees 
 where FirstName like 'Robert';
 
 
 --LINKANDO AS TABELAS EMPREGADO, ORDENS E DETALHES
-SELECT firstname || " " || lastname as Nome_completo,
-	   ORD.ORDERDATE,
-	   round(sum(OD.UNITPRICE)) as vendas_dia,
-	   sum(OD.QUANTITY) as quantidade_dia
+SELECT  firstname || " " || lastname as Nome_completo,
+	ORD.ORDERDATE,
+	round(sum(OD.UNITPRICE)) as vendas_dia,
+	sum(OD.QUANTITY) as quantidade_dia
 FROM projeto.orders as ord
 INNER JOIN projeto.employees as E
 on ord.employeeid = e.employeeid
@@ -27,8 +27,8 @@ order by 2
 
 
 -- fazendo o agrupamento comparativo com outros vendedores
-SELECT firstname || " " || lastname as Nome_completo,   
-	   round(sum(OD.UNITPRICE * OD.QUANTITY),2) as total_vendas
+SELECT  firstname || " " || lastname as Nome_completo,   
+	round(sum(OD.UNITPRICE * OD.QUANTITY),2) as total_vendas
 FROM projeto.orders as ord
 INNER JOIN projeto.employees as E
 on ord.employeeid = e.employeeid
