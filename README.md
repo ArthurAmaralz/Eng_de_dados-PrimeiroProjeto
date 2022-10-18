@@ -19,10 +19,12 @@ O esquema do BD Relacional da empresa se dá de acordo com a imagem:
 > 
 > P.s.: Na carga das tabelas, os nomes das colunas perderam o underline '_'
  
- * Upload dos arquivos no Google Cloud Storage;
- * Criação do Dataset dentro do Google BigQuery;
- * Copia das tabelas para o dataset, ultilizando 'detectar automaticamente Esquemas', nas opções avançadas mudar o delimiter para ';' e marcar 'ignorar a primeira linha';
- * Após a carga de todas as tabelas estamos prontos para resolução de problemas;
+* Upload dos arquivos no Google Cloud Storage;
+* Criação do Dataset dentro do Google BigQuery;
+* Copia das tabelas para o dataset, ultilizando 'detectar automaticamente Esquemas', nas opções avançadas mudar o delimiter para ';' e marcar 'ignorar a primeira linha';
+* Após a carga de todas as tabelas estamos prontos para resolução de problemas;
+ 
+![Diagrama](Tabelas_Relacional/diagrama_bigquery.png)
 
 
 Para realizar as atividades propostas, o curso utilizou-se da seguinte estrutura:
@@ -32,7 +34,6 @@ Para realizar as atividades propostas, o curso utilizou-se da seguinte estrutura
 * Upload dos arquivos .csv do PC Local para um bucket no AWS S3;
 * Cópia dos dados do AWS S3 para o datawarehouse no Redshift;
 * Resolução das atividades que simulam problemas de negócios e exportação de csv.
- 
  
  ![Diagrama](Tabelas_Relacional/diagrama_projeto.png)
  
