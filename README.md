@@ -24,7 +24,8 @@ Para realizar as atividades propostas, o curso utilizou-se da seguinte estrutura
 
 > No meu caso por preferir ultilizar o BigQuery, que não ofereceria custos extras,
 > tive os seguintes passos:
-> P.s.: Na carga das tabalas, o nome das colunas perderam o underline '_'
+> 
+> P.s.: Na carga das tabelas, os nomes das colunas perderam o underline '_'
  
  * Upload dos arquivos no Google Cloud Storage;
  * Criação do Dataset dentro do Google BigQuery;
