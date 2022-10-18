@@ -1,2 +1,3 @@
-# Eng.-de-dado---Projeto-1
-Primeiro projeto do curso Formação Engenharia de Dados [2022]: Domine Big Data! - Udemy
+# PrimeiroProjeto - Google BigQuery
+
+>Resolução de problemas de negócio simulados e soluções de requisições utilizando Google BigQuery e BD Relacional, mas podendo ser ultilizado Datawarehouse AWS Redshift e AWS S3.
