@@ -2,9 +2,9 @@
 /* Os 10 produtos mais caros */
 
 
-select productname, 
-	   unitprice, 
-	   categoryname
+select  productname, 
+	unitprice, 
+	categoryname
 from projeto.products p
 inner join projeto.categories c
 on p.categoryid = c.categoryid
@@ -15,8 +15,8 @@ LIMIT 10;
 -- Aumentando a complexidade...Caso quisesse o mais vendido por categoria
 with por_categoria as (
   select productname, 
-		 unitprice, 
-		 categoryname
+	 unitprice, 
+	 categoryname
   from projeto.products p
   inner join projeto.categories c
   on p.categoryid = c.categoryid
