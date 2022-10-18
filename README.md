@@ -33,6 +33,9 @@ Para realizar as atividades propostas, o curso utilizou-se da seguinte estrutura
  * Após a carga de todas as tabelas estamos prontos para resolução de problemas;
  
  
+ ![Diagrama](Tabelas_Relacional/diagrama_projeto.png)
+ 
+ 
  ## Atividades: 
  1. Gerar um relatório com os valores tabelados dos produtos e com os valores realmente executados nas vendas, exibindo a diferença entre esses valores e exibir a quantidade de produtos vendidos por venda.    
 
