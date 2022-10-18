@@ -31,3 +31,21 @@ Para realizar as atividades propostas, o curso utilizou-se da seguinte estrutura
  * Criação do Dataset dentro do Google BigQuery;
  * Copia das tabelas para o dataset, ultilizando 'detectar automaticamente Esquemas', nas opções avançadas mudar o delimiter para ';' e marcar 'ignorar a primeira linha';
  * Após a carga de todas as tabelas estamos prontos para resolução de problemas;
+ 
+ 
+ ## Atividades: 
+ 1. Gerar um relatório com os valores tabelados dos produtos e com os valores realmente executados nas vendas, exibindo a diferença entre esses valores e exibir a quantidade de produtos vendidos por venda.    
+
+ 2. Agrupar o valor das vendas dos vendedores no ano de 2022 para analisar o desempenho do vendedor "Robert King".
+
+ 3. Selecionar os 10 produtos que têm os preços tabelados mais caros.
+
+4. Mostrar a quantidade de vendas total por fornecedor nos anos de 2021 e 2020 e a diferença entre o total de vendas desses anos.
+
+5. Selecionar as 5 categorias que mais venderam em cada ano.
+
+
+## Arquivos de resolução
+
+Os arquivos de resolução se encontram anexados e separados por atividade. Consistem em scripts SQL e arquivos gerados no formato .csv
+ 
