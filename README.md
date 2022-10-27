@@ -1,4 +1,4 @@
-# PrimeiroProjeto - Google BigQuery e AWS
+# PrimeiroProjeto - GCP e AWS
 
 >Resolução de problemas de negócio simulados e soluções de requisições utilizando Google BigQuery, Google Storage e BD Relacional.
 Posteriormente seguindo o versionamento do curso utilizando Datawarehouse Northwind, AWS Redshift e AWS S3.
