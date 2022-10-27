@@ -16,7 +16,7 @@ O esquema do BD Relacional da empresa se dá de acordo com a imagem:
 ## Preparação do ambiente
 
 > No meu caso preferi ultilizar o BigQuery no primeiro momento, que não ofereceria custos extras,
-> ultilizei da seguinte estrutura:
+> ultilizando da seguinte estrutura:
 > 
 > P.s.: Na carga das tabelas, os nomes das colunas perderam o underline '_'
  
