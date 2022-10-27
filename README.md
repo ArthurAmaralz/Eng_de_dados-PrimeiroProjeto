@@ -1,6 +1,7 @@
-# PrimeiroProjeto - Google BigQuery
+# PrimeiroProjeto - Google BigQuery e AWS
 
->Resolução de problemas de negócio simulados e soluções de requisições utilizando Google BigQuery e BD Relacional, mas podendo ser ultilizado Datawarehouse AWS Redshift e AWS S3.
+>Resolução de problemas de negócio simulados e soluções de requisições utilizando Google BigQuery, Google Storage e BD Relacional.
+Posteriormente seguindo o versionamento do curso utilizando Datawarehouse Northwind, AWS Redshift e AWS S3.
 
 ## Objetivo: 
 
@@ -14,7 +15,7 @@ O esquema do BD Relacional da empresa se dá de acordo com a imagem:
 
 ## Preparação do ambiente
 
-> No meu caso por preferir ultilizar o BigQuery, que não ofereceria custos extras,
+> No meu caso preferi ultilizar o BigQuery no primeiro momento, que não ofereceria custos extras,
 > ultilizei da seguinte estrutura:
 > 
 > P.s.: Na carga das tabelas, os nomes das colunas perderam o underline '_'
@@ -27,7 +28,7 @@ O esquema do BD Relacional da empresa se dá de acordo com a imagem:
 ![Diagrama](Tabelas_Relacional/diagrama_bigquery.png)
 
 
-Para realizar as atividades propostas, o curso utilizou-se da seguinte estrutura:
+Para realizar as atividades propostas com AWS, utilizou-se da seguinte estrutura:
  
 * Criação de Cluster Redshift;
 * Criação da estrutura do Datawarehouse Northwind;
